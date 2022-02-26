@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216276891814",
+    "project_id": "fan-page-app-528b9",
+    "storage_bucket": "fan-page-app-528b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216276891814:android:ac7958c06f4629f4e55c67",
+        "android_client_info": {
+          "package_name": "com.javierortiz.fanpage_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216276891814-u63334vv7godo07qdkrf7f4m4kfk6g3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT7_zFAz4X5tso0n-Ok3-NMUCgdNMQGCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216276891814-u63334vv7godo07qdkrf7f4m4kfk6g3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
