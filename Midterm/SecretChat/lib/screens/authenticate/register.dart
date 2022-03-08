@@ -140,50 +140,9 @@ class _SignUpState extends State<SignUp> {
                   SizedBox(
                     height: 16,
                   ),
-                  Container(
-                    padding: EdgeInsets.symmetric(vertical: 16),
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(30),
-                        color: Colors.white),
-                    width: MediaQuery.of(context).size.width,
-                    child: Text(
-                      "Sign Up with Google",
-                      style:
-                          TextStyle(fontSize: 17, color: CustomTheme.textColor),
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 16,
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        "Already have an account? ",
-                        style: simpleTextStyle(),
-                      ),
-                      GestureDetector(
-                        onTap: () {
-                          widget.toggleView();
-                        },
-                        child: Text(
-                          "SignIn now",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              decoration: TextDecoration.underline),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 50,
-                  )
                 ],
               ),
             ),
     );
-    ;
   }
 }
